@@ -49,6 +49,13 @@ img{
     font-size: 3.5vw;
 }
 
+p{
+  padding-left: 2vw; 
+  padding-top: 2vw;
+  color:hsl(235, 45%, 61%);
+  cursor: pointer;
+}
+
 .grid-item2 {
   background-color:hsl(15, 100%, 70%);
   border-radius: 10px;
