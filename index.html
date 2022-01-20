@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./data.json">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,65 +18,105 @@
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
+ <div class="grid-container">
+  
+  <div class="grid-item1">
+    <div class="item1">
+       <div >
+              <img src="./images/image-jeremy.png" alt="jeremy Image">
+            <h4 >Report for</h4>
+            <h1>Jeremy Robson</h1>
+             </div>
+           </div>
 
-  Daily
-  Weekly
-  Monthly
+            <p id="daily">Daily</p>
+            <p id="weekly">Weekly</p>
+            <p id="monthly"> Monthly </p>
+  </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+  <div class="grid-item2">
+    <div class="item">
+      <div>
+        Work
+      </div>
+      <h1>32hrs</h1>
+          
+          <p style="color:hsl(235, 45%, 61%);" >
+            <!--Last Week - 36hrs -->
+          </p>
+ </div>
+  </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+  <div class="grid-item3">
+    <div class="item">
+      <div>
+        Play
+      </div>
+      <h1>10hrs</h1>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+          <p style="color:hsl(235, 45%, 61%);" >
+            Last Week - 8hrs
+          </p>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+    </div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+  </div>  
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+  <div class="grid-item4">
+    <div class="item">
+      <div>
+        Study
+      </div>
+      <h1>4hrs</h1>
+       <p style="color:hsl(235, 45%, 61%);" >
+            Last Week - 7hrs
+          </p>
+    </div>
+  </div>
+
+  <div class="grid-item5">
+    <div class="item">
+      <div>Exercise</div>
+      <h1>4hrs</h1>
+       <p style="color:hsl(235, 45%, 61%);" >
+            Last Week - 8hrs
+          </p>
+    </div>
+  </div>
+
+  <div class="grid-item6">
+    <div class="item">
+      <div>Social</div>
+      <h1>5hrs</h1>
+       <p style="color:hsl(235, 45%, 61%);" >
+            Last Week - 10hrs
+          </p>
+    </div>
+  </div>  
+  
+  <div class="grid-item7">
+    <div class="item">
+      <div>Self Care</div>
+      <h1>2hrs</h1>
+      <p style="color:hsl(235, 45%, 61%);" >
+            Last Week - 2hrs
+          </p>
+    </div>
+  </div>
+  
+   
+</div>
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Prabhjot Kaur</a>
+
+
+
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./data.json"></script>
+
   </div>
 </body>
 </html>
