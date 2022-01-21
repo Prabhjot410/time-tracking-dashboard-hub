@@ -28,17 +28,17 @@ function funDaily(data){
   daily.addEventListener('click',()=>
   {
   work.innerHTML=data[0].timeframes.daily.current+"Hrs";
-  lsWork.innerHTML="Last Week- "+data[0].timeframes.daily.previous+"Hrs";
+  lsWork.innerHTML="Yesterday- "+data[0].timeframes.daily.previous+"Hrs";
   play.innerHTML=data[1].timeframes.daily.current+"Hrs";
-  lsPlay.innerHTML="Last Week- "+data[1].timeframes.daily.previous+"Hrs";
+  lsPlay.innerHTML="Yesterday- "+data[1].timeframes.daily.previous+"Hrs";
   study.innerHTML=data[2].timeframes.daily.current+"Hrs";
-  lsStudy.innerHTML="Last Week- "+data[2].timeframes.daily.previous+"Hrs";
+  lsStudy.innerHTML="Yesterday- "+data[2].timeframes.daily.previous+"Hrs";
   exercise.innerHTML=data[3].timeframes.daily.current+"Hrs";
-  lsExercise.innerHTML="Last Week- "+data[3].timeframes.daily.previous+"Hrs";
+  lsExercise.innerHTML="Yesterday- "+data[3].timeframes.daily.previous+"Hrs";
   social.innerHTML=data[4].timeframes.daily.current+"Hrs";
-  lsSocial.innerHTML="Last Week- "+data[4].timeframes.daily.previous+"Hrs";
+  lsSocial.innerHTML="Yesterday- "+data[4].timeframes.daily.previous+"Hrs";
   selfCare.innerHTML=data[5].timeframes.daily.current+"Hrs";
-  lsSelfCare.innerHTML="Last Week- "+data[5].timeframes.daily.previous+"Hrs";
+  lsSelfCare.innerHTML="Yesterday- "+data[5].timeframes.daily.previous+"Hrs";
 
   })
 }
@@ -66,17 +66,17 @@ function funMonthly(data){
   monthly.addEventListener('click',()=>
   {
   work.innerHTML=data[0].timeframes.monthly.current+"Hrs";
-  lsWork.innerHTML="Last Week- "+data[0].timeframes.monthly.previous+"Hrs";
+  lsWork.innerHTML="Last Month- "+data[0].timeframes.monthly.previous+"Hrs";
   play.innerHTML=data[1].timeframes.monthly.current+"Hrs";
-  lsPlay.innerHTML="Last Week- "+data[1].timeframes.monthly.previous+"Hrs";
+  lsPlay.innerHTML="Last Month- "+data[1].timeframes.monthly.previous+"Hrs";
   study.innerHTML=data[2].timeframes.monthly.current+"Hrs";
-  lsStudy.innerHTML="Last Week- "+data[2].timeframes.monthly.previous+"Hrs";
+  lsStudy.innerHTML="Last Month- "+data[2].timeframes.monthly.previous+"Hrs";
   exercise.innerHTML=data[3].timeframes.monthly.current+"Hrs";
-  lsExercise.innerHTML="Last Week- "+data[3].timeframes.monthly.previous+"Hrs";
+  lsExercise.innerHTML="Last Month- "+data[3].timeframes.monthly.previous+"Hrs";
   social.innerHTML=data[4].timeframes.monthly.current+"Hrs";
-  lsSocial.innerHTML="Last Week- "+data[4].timeframes.monthly.previous+"Hrs";
+  lsSocial.innerHTML="Last Month- "+data[4].timeframes.monthly.previous+"Hrs";
   selfCare.innerHTML=data[5].timeframes.monthly.current+"Hrs";
-  lsSelfCare.innerHTML="Last Week- "+data[5].timeframes.monthly.previous+"Hrs";
+  lsSelfCare.innerHTML="Last Month- "+data[5].timeframes.monthly.previous+"Hrs";
 
   })
 }
