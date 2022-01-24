@@ -1,122 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./data.json">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
- <div class="grid-container">
-  
-  <div class="grid-item1">
-    <div class="item1">
-       <div >
-              <img src="./images/image-jeremy.png" alt="jeremy Image">
-            <h4 >Report for</h4>
-            <h1>Jeremy Robson</h1>
-             </div>
-           </div>
+  <div class="grid-container">
 
-            <p id="daily">Daily</p>
-            <p id="weekly">Weekly</p>
-            <p id="monthly"> Monthly </p>
-  </div>
-
-  <div class="grid-item2">
-    <div class="item">
-      <div>
-        Work
+    <div class="grid-item1">
+      <div class="item1">
+        <div>
+          <img src="./images/image-jeremy.png" alt="jeremy Image">
+          <h4>Report for</h4>
+          <h1>Jeremy Robson</h1>
+        </div>
       </div>
-      <h1>32hrs</h1>
-          
-          <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 36hrs
-          </p>
- </div>
-  </div>
 
-  <div class="grid-item3">
-    <div class="item">
-      <div>
-        Play
+      <p id="daily">Daily</p>
+      <p id="weekly">Weekly</p>
+      <p id="monthly"> Monthly </p>
+    </div>
+
+    <div class="grid-item2">
+      <div class="item">
+        <div>
+          Work
+        </div>
+        <h1 id="work">0hrs</h1>
+
+        <p id="last-week-work" style="color:hsl(235, 45%, 61%);">
+          Last Week - 0hrs
+        </p>
       </div>
-      <h1>10hrs</h1>
-
-          <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 8hrs
-          </p>
-
     </div>
 
-  </div>  
+    <div class="grid-item3">
+      <div class="item">
+        <div>
+          Play
+        </div>
+        <h1 id="play">0hrs</h1>
 
-  <div class="grid-item4">
-    <div class="item">
-      <div>
-        Study
+        <p id="last-week-play" style="color:hsl(235, 45%, 61%);">
+          Last Week - 0hrs
+        </p>
+
       </div>
-      <h1>4hrs</h1>
-       <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 7hrs
-          </p>
+
     </div>
+
+    <div class="grid-item4">
+      <div class="item">
+        <div> Study </div>
+          <h1 id="study">0hrs</h1>
+          <p id="last-week-study" style="color:hsl(235, 45%, 61%);">
+            Last Week - 0hrs
+          </p>
+        
+      </div>
+    </div>
+
+    <div class="grid-item5">
+      <div class="item">
+        <div>Exercise</div>
+        <h1 id="exercise">0hrs</h1>
+        <p id="last-week-exercise" style="color:hsl(235, 45%, 61%);">
+          Last Week - 0hrs
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-item6">
+      <div class="item">
+        <div>Social</div>
+        <h1 id="social">0hrs</h1>
+        <p id="last-week-social" style="color:hsl(235, 45%, 61%);">
+          Last Week - 0hrs
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-item7">
+      <div class="item">
+        <div>Self Care</div>
+        <h1 id="self-care">0hrs</h1>
+        <p id="last-week-sc" style="color:hsl(235, 45%, 61%);">
+          Last Week - 0hrs
+        </p>
+      </div>
+    </div>
+
+
   </div>
 
-  <div class="grid-item5">
-    <div class="item">
-      <div>Exercise</div>
-      <h1>4hrs</h1>
-       <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 8hrs
-          </p>
-    </div>
-  </div>
 
-  <div class="grid-item6">
-    <div class="item">
-      <div>Social</div>
-      <h1>5hrs</h1>
-       <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 10hrs
-          </p>
-    </div>
-  </div>  
-  
-  <div class="grid-item7">
-    <div class="item">
-      <div>Self Care</div>
-      <h1>2hrs</h1>
-      <p style="color:hsl(235, 45%, 61%);" >
-            Last Week - 2hrs
-          </p>
-    </div>
-  </div>
-  
-   
-</div>
-
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Prabhjot Kaur</a>
-
-
-
-    <script type="text/javascript" src="./script.js"></script>
-    <script type="text/javascript" src="./data.json"></script>
-
   </div>
+  <script type="module" src="./script.js"></script>
 </body>
+
 </html>
